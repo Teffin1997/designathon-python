@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>newaccount</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="../static/css/newaccount.css">
+</head>
+<body>
+    <div class="newaccount">
+        <nav>
+            <ul>
+                <li class="active" ><a href="home">HOME</a></li>
+            </ul> 
+
+        </nav>
+        <div class="form1" >
+            <h2>Enter your details</h2>
+            <form action="/update" method="post">
+                <div class="details">
+                    
+                    <p>Enter name:</p>
+                    <input type="text" name="name">
+                    
+                    <p>enter con.number:</p>
+                    <input type="number" name="cons">
+                    
+                    <p>enter city:</p>
+                    <input type="text" name="city">
+                </div>
+                <div class="details ">
+
+                    <p>phone number:</p>
+                    <input type="number" name="phone">
+                    
+                    <p>enter district:</p>
+                    <input type="text" name="dct">
+                    
+                    <p>pincode:</p>
+                    <input type="number" name="pin">
+
+                </div>
+                <div class="details">
+                
+                    <p>enter email:</p>
+                    <input type="text" name="eml">
+                    
+                    <p>enter password:</p>
+                    <input type="password" name="pss">
+                    
+                    <p>re enter password</p>
+                    <input type="password" name="rpss" placeholder='atleast 6 charectors'>
+
+                    
+                
+                </div>
+              <input type="submit" name="insert" value="submit"> 
+            </form>    
+        </div>
+        
+
+
+    </div>
+
+
+</body>
+</html>

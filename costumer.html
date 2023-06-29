@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>costumer page</title>
+    <link rel="stylesheet" href="../static/css/costumer.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="../static/images/logo.png"  class="logo">
+            <h4>SOLE<BR>
+            POWER<BR>
+            PROJECTS </h4>
+            
+            <nav>
+                <ul>
+                    <li><a href="BACKADMIN">BACK</a></li>
+                </ul>
+            </nav>
+            
+           
+        
+        </div> 
+
+        <div class="details">
+            <table border="1px">
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>PHONE</th>
+                        <th>CON.NO</th>
+                        <th>DISTRICT</th>
+                        <th>CITY</th>
+                        <th>PINCODE</th>
+                        <th>E MAIL</th>
+                    </tr>
+                </thead>
+                  {%for row in sqldata%}
+                  <tr>
+                    <td>{{row[0]}}</td>
+                    <td>{{row[1]}}</td>
+                    <td>{{row[2]}}</td>
+                    <td>{{row[3]}}</td>
+                    <td>{{row[4]}}</td>
+                    <td>{{row[5]}}</td>
+                    <td>{{row[6]}}</td>
+
+                  </tr>
+                  {%endfor%}
+            </table>
+        </div>
+   </div> 
+    
+
+</body>
+</html>

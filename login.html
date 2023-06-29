@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>login</title>
+<link rel="stylesheet" href="../static/css/login.css">
+</head>
+<body>
+    <div class="loginpage">  
+        <div class="navbar">
+            
+            
+            <nav>
+                <ul>
+                    <li><a href="home">HOME</a></li>
+                </ul>
+            </nav>
+            <h1>login here..</h1>
+        
+        </div>  
+       
+
+        <div class="login">
+            <form class="LOGIN FORM" action="/admin" method="post">
+                <p>login as:</p>
+                <select name="usertype">
+                    <option value="ve">Vendor</option>
+                    <option value="co">Costumer</option>
+                </select> 
+
+                <p>user name:</p>
+                <input type="text" name="user" placeholder="abc@gmail.com">
+
+                <p>password:</p>
+                <input type="password" name="password"  placeholder="enter password">
+
+                <input type="submit" name="submit" value="login"><br>
+            
+                <ul class="forgot">
+                    <li><a href="#">forgot password</a></li>
+                    <li><a href="make">create an account</a></li>
+                </ul>
+                {{msg}}
+
+
+            </form>
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+</html>

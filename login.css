@@ -1,0 +1,99 @@
+*{
+    margin: auto;
+    padding:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.loginpage{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/homeback.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.login{
+    height: 350px;
+    width: 450px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    align-content: center;
+    padding: 60px 30px;
+    background: linear-gradient(rgba(170, 142, 142, 0.7),rgba(163, 86, 86, 0.7));
+}
+.loginpage h1{
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    color: #fff;
+
+}
+.forgot li{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.forgot li a{
+    font-size: 13px;
+    color: #083c5f;
+}
+.login form input[type="text"], input[type="password"]{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid;
+    background: transparent;
+    outline: none;
+    height: 40px;
+
+}
+.navbar{
+    height: 18%;
+    display: flex;
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(236, 55, 182, 0.973);
+    font-size: 12px;
+    display: block;
+    align-items: center;
+
+}
+.menu-icon{
+    margin-left: 60px;
+    width: 25px;
+    height: 25px;
+}
+.navbar h4{
+    color: aliceblue;
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+
+    
+
+

@@ -1,0 +1,124 @@
+*{
+    margin: auto;
+    padding:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/homeback.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 18%;
+    display: flex;
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(236, 55, 182, 0.973);
+    font-size: 12px;
+    display: block;
+    align-items: center;
+
+}
+.menu-icon{
+    margin-left: 60px;
+    width: 25px;
+    height: 25px;
+}
+.navbar h4{
+    color: aliceblue;
+    font-size: 12px;
+    margin-left: 12px;
+}
+.row{
+    display: flex;
+    height: 60%;
+    align-items: center;
+}
+.col{
+    flex-basis:50%;
+}
+h1{
+    font-size: 100px;
+    color: rgb(248, 185, 215);
+}
+.col p{
+    color: rgb(114, 235, 235);
+}
+button{
+    width: 180px;
+    color: rgb(236, 233, 240);
+    font-size: 15px;
+    padding: 12px 0;
+    background: #033e4d50;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width:200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(../images/panels.jpg);
+}
+.card2{
+    background-image: url(../images/inverter.jpg);
+}
+.card3{
+    background-image: url(../images/heater.jpg);
+}
+.card4{
+    background-image: url(../images/tank.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.login{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+
+}
+.navbar ul li:hover{
+    background-color: #f1f8ef;
+    border-radius: 5px;
+}
